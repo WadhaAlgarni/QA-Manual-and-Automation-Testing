@@ -2,12 +2,14 @@
 This repository is part of my QA learning journey with **Tuwaiq Academy - Software Testing & Automation Bootcamp**.  
 It contains both **manual testing (test cases)** and **automation testing (Cypress end-to-end scripts)** to validate OrangeHRM features.
 
-# Introduction
 - Manual testing: Designed test cases for **Login, Logout, Add Employee, Edit Info, and Job Management**.  
 - Automation testing: Implemented Cypress scripts for end-to-end scenarios.  
 - Purpose: Practice **QA processes**, **test documentation**, and **automation execution**.
 
+---
+
 ## 📁 Project Structure
+
 QA-Manual-and-Automation-Testing/
 │
 ├── 📁 ManualTesting/
@@ -24,12 +26,13 @@ QA-Manual-and-Automation-Testing/
 │   │   │   ├── OrangeHrBeforeAfterEach.cy.js
 │   │   │   ├── EditMyInfo.cy.js
 │   │   │   ├── AddJob.cy.js
-│   │   │   └── RegressionTest.cy
+│   │   │   └── RegressionTest.cy.js
 │   │   └── support/        
 │   └── package.json        
 │              
 └── README.md  
 
+---
 ## 📝 Manual Testing
 - Created test cases covering:
   - ✅ Valid & invalid login  
@@ -37,13 +40,17 @@ QA-Manual-and-Automation-Testing/
   - ✅ Add employee  
   - ✅ Edit employee information  
   - ✅ Assign jobs
-    📄 File: `Manual_Testing/TestCases.xlsx`
+📄 File: `ManualTesting/TestCases.xlsx`
 
-## Automation Testing
-- Framework: **Cypress**
-- Language: **JavaScript**
-- Coverage: End-to-end(E2E) testing of Login → Logout → Employee Management
-  📄 Scripts: `Automation_Testing/cypress/e2e/*.cy.js`
+---
+
+## ⚡ Automation Testing
+
+- **Framework:** Cypress  
+- **Language:** JavaScript  
+- **Coverage:** End-to-end (E2E) testing of Login → Logout → Employee Management, including all scenarios above.  
+- **Scripts:** `Automation-Testing/cypress/e2e/*.cy.js`
+
 ---
 ## 📊 Reports & Results
 
@@ -56,14 +63,16 @@ QA-Manual-and-Automation-Testing/
    git clone https://github.com/your-username/QA-Manual-and-Automation-Testing.git
    cd QA-Manual-and-Automation-Testing/Automation_Testing
    ```
+2. Install dependencies
 ```bash
-# Install dependencies
 npm install
-
-# Run Cypress in headed mode
+```
+3. Run Cypress in headed mode
+ ```bash
 npx cypress open
-
-# Run Cypress in headless mode
+```
+4- Run Cypress in headless mode
+ ```bash
 npx cypress run
 ```
 Author: Wadha Al-Garni
