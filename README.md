@@ -10,36 +10,35 @@ It contains both **manual testing (test cases)** and **automation testing (Cypre
 
 ## 📁 Project Structure
 
+```plaintext
 QA-Manual-and-Automation-Testing/
-│
-├── 📁 ManualTesting/
-│   └── TestCases.xlsx       
-│
-├── 📁 Automation-Testing/
-│   ├── 📁 cypress/
-│   │   ├── e2e/             
-│   │   │   ├── Login.cy.js
-│   │   │   ├── Logout.cy.js
-│   │   │   ├── AddEmployee.cy.js
-│   │   │   ├── EmploymentStatus.cy.js
-│   │   │   ├── OrangeHrBeforeAfter.cy.js
-│   │   │   ├── OrangeHrBeforeAfterEach.cy.js
-│   │   │   ├── EditMyInfo.cy.js
-│   │   │   ├── AddJob.cy.js
-│   │   │   └── RegressionTest.cy.js
-│   │   └── support/        
-│   └── package.json        
-│              
-└── README.md  
+├─ 📁 ManualTesting
+│  └─ 📄 TestCases.xlsx
+├─ 📁 Automation-Testing
+│  ├─ 📁 cypress
+│  │  ├─ 📁 e2e
+│  │  │  ├─ 📄 Login.cy.js
+│  │  │  ├─ 📄 Logout.cy.js
+│  │  │  ├─ 📄 AddEmployee.cy.js
+│  │  │  ├─ 📄 EmploymentStatus.cy.js
+│  │  │  ├─ 📄 OrangeHrBeforeAfter.cy.js
+│  │  │  ├─ 📄 OrangeHrBeforeAfterEach.cy.js
+│  │  │  ├─ 📄 EditMyInfo.cy.js
+│  │  │  ├─ 📄 AddJob.cy.js
+│  │  │  └─ 📄 RegressionTest.cy.js
+│  │  └─ 📁 support
+│  └─ 📄 package.json
+└─ 📄 README.md
+```
 
 ---
 ## 📝 Manual Testing
 - Created test cases covering:
-  - ✅ Valid & invalid login  
-  - ✅ Logout functionality  
-  - ✅ Add employee  
-  - ✅ Edit employee information  
-  - ✅ Assign jobs
+  - Valid & invalid login  
+  - Logout functionality  
+  - Add employee  
+  - Edit employee information  
+  - Assign jobs
 📄 File: `ManualTesting/TestCases.xlsx`
 
 ---
@@ -75,8 +74,8 @@ npx cypress open
  ```bash
 npx cypress run
 ```
-Author: Wadha Al-Garni
-Date: September 2025
+- Author: Wadha Al-Garni
+- Date: September 2025
 
 
             
