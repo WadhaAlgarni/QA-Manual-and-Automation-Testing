@@ -1,0 +1,19 @@
+{
+  "name": "automation-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress run",
+    "merge-reports": "mochawesome-merge cypress/reports/*.json > cypress/reports/report.json",
+    "generate-report": "marge cypress/reports/report.json -f report -o cypress/reports"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.3.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}
